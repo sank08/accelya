@@ -1,0 +1,12 @@
+.cls-panel{
+    background-color: #363b3e;
+    height: 380px; 
+}
+.cls-item{
+    display: inline-block;
+}
+
+.cls-label{
+    color:white;
+    font-size: 28px;
+}
