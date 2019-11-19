@@ -1,0 +1,43 @@
+.cls-footer{
+    width: 100%;
+    position: relative;
+    height: 169px;
+    padding: 4em;
+}
+
+.cls-links{
+    color:#363b3e;
+    font-size: 18pts;
+}
+
+.cls-links a{
+    text-decoration: none;
+    color:#363b3e;
+    
+}
+
+.cls-right{
+    text-align: right;
+    width: 50%;
+    display: inline-block;
+}
+
+.cls-right i {
+    border: 1px solid;
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.cls-left{
+    text-align: left;
+    width: 50%;
+    display: inline-block;
+}
+
+.cls-low{
+    font-size: 13px;
+}

@@ -1,0 +1,20 @@
+<div class="cls-search">
+    <div class="cls-label cls-head">
+        Gif Search
+    </div>
+    <div class="cls-input">
+        <input [(ngModel)]="search"  placeholder="What are you looking for?" (keydown.enter)="callSearch()"/>
+        <button class="btn fa fa-search" (click)="callSearch()"></button>
+    </div>
+    <div class="cls-label cls-head2">
+        You can search any gif with our search
+    </div>
+    <div class="cls-label cls-head3">
+        Everything you need  for your creative projects. websites, banners, presentations, magazines and advertising.
+    </div>
+</div>
+<div class="cls-result">
+    <div class="cls-gif" *ngFor="let gif of gifList">
+        <img src="{{gif.images.original.url}}">
+    </div>    
+</div>
