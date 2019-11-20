@@ -1,12 +1,74 @@
 .cls-panel{
     background-color: #363b3e;
     height: 380px; 
+    padding: 5em;
+    display: flex;
+
 }
 .cls-item{
     display: inline-block;
+    width: 50%;
 }
 
 .cls-label{
     color:white;
     font-size: 28px;
+}
+
+.cls-input input{
+    width: 26vw;
+    height: 6.5vh; 
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #363b3e;
+    border: 1px solid #4c5358;
+    margin-bottom: 1em;
+}
+
+.cls-input button{
+    color: white;
+    background-color: #2c88b5;
+    display: block;
+    width: 26vw;
+    height: 6.5vh;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 28px;
+
+}
+
+.cls-right{
+    text-align: center;
+}
+
+.cls-cat-list{
+    color: #4c5358;
+    font-size: 16px;
+    width: 28vw;
+    min-height: 26vh;
+}
+
+.cls-cat-list a{
+    color: #4c5358;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.cls-cat-list > div{
+    padding: 11px;
+    width: 7vw;
+    display: inline-block;
+}
+
+.cls-p-10{
+    padding-left: 10px;
+    padding-bottom: 1em;
+}
+
+.cls-p-1em{
+    padding-bottom: 1em;
 }

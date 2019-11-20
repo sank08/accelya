@@ -1,13 +1,24 @@
 <div class="cls-panel">
     <div class="cls-item">
-        <div class="cls-label">
-            Signup and get free content every week.
+        <div class="cls-label cls-p-1em">
+            Sign up and <br> get free content every week.
         </div>
-        <div class="cls-input">
-            <input/>
+        <div class="cls-cat-list">
+            <div class="cls-input">
+                <input placeholder="Enter your email..."/>
+                <button>Sign Up</button>
+            </div>
         </div>
     </div>
     <div class="cls-item">
+        <div class="cls-label">
+            <div class="cls-p-10">
+                Browse by categories
+            </div>
+        </div>
+        <div class="cls-cat-list">
+            <div *ngFor="let tag of categoryList"><a href="#">{{tag}}</a></div>
+        </div>
 
     </div>
 </div>
