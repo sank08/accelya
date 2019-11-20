@@ -1,6 +1,7 @@
 # AccelyaTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.6.
+Supported Browser Chrome, best viewed in resolution 1920 x 937
 
 ## Development server
 
