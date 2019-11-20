@@ -1,74 +1,168 @@
-.cls-panel{
-    background-color: #363b3e;
-    height: 380px; 
+.cls-panel {
+  background-color: #363b3e;
+  height: 380px;
+  display: flex;
+}
+.cls-item {
+  display: inline-block;
+  width: 50%;
+}
+
+.cls-label {
+  color: white;  
+}
+
+.cls-input input {
+  height: 6.5vh;
+  border-radius: 5px;
+  border: none;
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #363b3e;
+  border: 1px solid #4c5358;
+  margin-bottom: 1em;
+}
+
+.cls-input button {
+  color: white;
+  background-color: #2c88b5;
+  display: block;
+  height: 6.5vh;
+  border-radius: 5px;
+  border: none;
+  box-sizing: border-box;
+  
+}
+
+.cls-right {
+  text-align: center;
+}
+
+.cls-cat-list {
+  color: #4c5358;
+  font-size: 16px;
+  min-height: 26vh;
+}
+
+.cls-cat-list a {
+  color: #4c5358; 
+  text-decoration: none;
+}
+
+.cls-cat-list > div {
+  padding: 11px;
+  display: inline-block;
+}
+
+.cls-p-10 {
+  padding-left: 10px;
+  padding-bottom: 1em;
+}
+
+.cls-p-1em {
+  padding-bottom: 1em;
+}
+
+@media all and (min-width: 1024px) {
+  .cls-panel {
     padding: 5em;
-    display: flex;
-
-}
-.cls-item{
-    display: inline-block;
-    width: 50%;
-}
-
-.cls-label{
-    color:white;
-    font-size: 28px;
-}
-
-.cls-input input{
+  }
+  .cls-input input, .cls-input button  {
     width: 26vw;
-    height: 6.5vh; 
-    border-radius: 5px;
-    border: none;
-    box-sizing: border-box;
-    padding: 20px;
-    font-size: 20px;
-    background-color: #363b3e;
-    border: 1px solid #4c5358;
-    margin-bottom: 1em;
-}
-
-.cls-input button{
-    color: white;
-    background-color: #2c88b5;
-    display: block;
-    width: 26vw;
-    height: 6.5vh;
-    border-radius: 5px;
-    border: none;
-    box-sizing: border-box;
     font-size: 28px;
-
-}
-
-.cls-right{
-    text-align: center;
-}
-
-.cls-cat-list{
-    color: #4c5358;
-    font-size: 16px;
+  }
+  .cls-cat-list {
     width: 28vw;
-    min-height: 26vh;
-}
+  }
 
-.cls-cat-list a{
-    color: #4c5358;
-    font-size: 16px;
-    text-decoration: none;
-}
-
-.cls-cat-list > div{
-    padding: 11px;
+  .cls-cat-list > div {
     width: 7vw;
-    display: inline-block;
+  }
+
+  .cls-cat-list a {
+    font-size: 16px;
+  }
+  .cls-label{
+    font-size: 28px;
+  }
 }
 
-.cls-p-10{
-    padding-left: 10px;
-    padding-bottom: 1em;
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .cls-panel {
+    padding: 3em;
+  }
+  .cls-input input,
+  .cls-input button {
+    width: 26vw;
+    font-size: 28px;
+  }
+
+  .cls-cat-list {
+    width: 45vw;
+  }
+
+  .cls-cat-list > div {
+    width: 10vw;
+  }
+
+  .cls-cat-list a {
+    font-size: 16px;
+  }
+  .cls-label{
+    font-size: 28px;
+  }
 }
 
-.cls-p-1em{
-    padding-bottom: 1em;
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .cls-panel {
+    padding: 2em;
+  }
+  .cls-input input,
+  .cls-input button {
+    width: 40vw;
+    font-size: 20px;
+  }
+  .cls-cat-list {
+    width: 44vw;
+  }
+
+  .cls-cat-list > div {
+    width: 10vw;
+  }
+
+  .cls-cat-list a {
+    font-size: 13px;
+  }
+
+  .cls-label{
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .cls-panel {
+    padding: 2em;
+  }
+  .cls-input input,
+  .cls-input button {
+    width: 40vw;
+    font-size: 20px;
+  }
+  .cls-cat-list {
+    width: 47vw;
+  }
+
+  .cls-cat-list > div {
+    width: 15vw;
+    padding: 2px 8px;
+  }
+
+  .cls-cat-list a {
+    font-size: 10px;
+  }
+
+  .cls-label{
+    font-size: 20px;
+  }
 }
